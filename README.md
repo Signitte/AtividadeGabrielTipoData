@@ -1,7 +1,7 @@
 # AtividadeGabrielTipoData
 
 No arquivo js nós começamos adicionando um evento para que a página sempre carregue e não iniciar como false as informações.<br/>
-Logo abaixo é feita criada três variaveis que recebem respectivamente os botões do html.<br/>
+Logo abaixo é feita a criação de três variaveis que recebem respectivamente os botões do html.<br/>
 Em seguida é criado um evento tipo click que recebe uma função de comparação entre as duas variaveis do tipo date inseridas pelo usuário, onde recebemos essas duas variaveis e inserimos elas em outras duas variaveis no formato do tipo data, e depois é feito uma validação com uma função validar que será explicada mais para frente, e caso as duas variaveis atendam a validação é emitido um alert mostrando qual é a maior data.<br/>
 Embaixo do evento de comparação existe o botão de intervalo que recebe da mesma forma as duas variaveis que o método anterior e realiza a mesma validação que o outro evento a diferença é que ele recebe mais uma condição nesse caso é uma condição com uma função que calcula o intervalo das duas datas e emite um alert com o intervalo das datas inseridas.<br/>
 Finalmente temos o último que evento que serve para mostrar a data atual, ele também é evento de clicar só que ele recebe uma data vazia que no caso é a data atual e emite um alert com função que faz o calculo para mostrar a data atual.<br/>

@@ -1,1 +1,10 @@
 # AtividadeGabrielTipoData
+
+No arquivo js nós começamos adicionando um evento para que a página sempre carregue e não iniciar como false as informações.<br/>
+Logo abaixo é feita criada três variaveis que recebem respectivamente os botões do html.<br/>
+Em seguida é criado um evento tipo click que recebe uma função de comparação entre as duas variaveis do tipo date inseridas pelo usuário, onde recebemos essas duas variaveis e inserimos elas em outras duas variaveis no formato do tipo data, e depois é feito uma validação com uma função validar que será explicada mais para frente, e caso as duas variaveis atendam a validação é emitido um alert mostrando qual é a maior data.<br/>
+Embaixo do evento de comparação existe o botão de intervalo que recebe da mesma forma as duas variaveis que o método anterior e realiza a mesma validação que o outro evento a diferença é que ele recebe mais uma condição nesse caso é uma condição com uma função que calcula o intervalo das duas datas e emite um alert com o intervalo das datas inseridas.<br/>
+Finalmente temos o último que evento que serve para mostrar a data atual, ele também é evento de clicar só que ele recebe uma data vazia que no caso é a data atual e emite um alert com função que faz o calculo para mostrar a data atual.<br/>
+A função de comparar datas serve para comparar a primeira e segunda e mostrar qual delas é maior, para isso usa o comando .getTime() e a snal de comparação igual utilizado no código e depois pedimos pra retornar a maior função respectivamente.<br/>
+A função de intervaloData serve para mostrar a distância entre as datas selecionadas, assim como na outra função utiliza o comando .getTime(), porém antes de mostrar o resultado é necessário fazer uma validação antes, fazendo com que o usuário digite que a primeira data deva vir antes da primeira, caso atenda esse requisito é feito o calculo através do comando .getTime() e mostrado o intervalo entre as datas.<br/>
+Depois temos a função de validar as datas inseridas onde basicamente, caso não haja valor inseridos nos campos solicitados vai retornar um alert dizendo para o usuário escolher uma data.<br/>
